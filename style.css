@@ -13,7 +13,7 @@ body {
 }
 #qrcontainer {
   height: 60%;
-  width: 25%;
+  width: 20%;
   background-color: hsl(0, 0%, 100%);
   border-radius: 25px;
   display: flex;
@@ -21,7 +21,7 @@ body {
   align-items: center;
   padding-top: 1%;
   justify-content: flex-start;
-  gap: 1%;
+  gap: 5%;
   text-align: center;
 }
 #qr {
