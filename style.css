@@ -20,24 +20,18 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 1%;
+  justify-content: flex-start;
+  gap: 5%;
+  text-align: center;
 }
 #qr {
   width: 90%;
-  height: 60%;
-  background-image: url(images/image-qr-code.png);
-  background-size: 100% 100%;
+
   border-radius: 15px;
 }
-#text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 30%;
-  width: 80%;
-  gap: 8%;
-}
-#text div {
-  text-align: center;
+img {
+  max-width: 90%;
+  border-radius: 10px;
 }
 #t1 {
   font-family: "Outfit";
@@ -50,4 +44,25 @@ body {
   font-weight: 400;
   font-size: 18px;
   color: hsl(220, 15%, 55%);
+}
+#t1,
+#t2 {
+  width: 80%;
+}
+@media screen and (max-width: 375px) {
+  #qrcontainer {
+    width: 85%;
+    height: 75%;
+    padding-top: 5%;
+  }
+  #qr {
+    width: 90%;
+    height: 50%;
+  }
+  #t1 {
+    font-size: 22px;
+  }
+  #t2 {
+    font-size: 15px;
+  }
 }
