@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
 body {
   margin: 0;
   background-color: hsl(212, 45%, 89%);
-  font-family: "Outfit";
+  font-family: "Outfit", sans-serifz;
 }
 #all {
   width: 100vw;
@@ -20,9 +22,14 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 1%;
-  justify-content: flex-start;
-  gap: 2%;
+  justify-content: space-around;
   text-align: center;
+}
+#text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 #qr {
   width: 90%;
@@ -34,20 +41,20 @@ img {
   border-radius: 10px;
 }
 #t1 {
-  font-family: "Outfit";
+  font-family: Outfit, sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   color: hsl(218, 44%, 22%);
 }
 #t2 {
-  font-family: Outfit;
+  font-family: Outfit, sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
 }
 #t1,
 #t2 {
-  width: 80%;
+  width: 90%;
 }
 @media screen and (max-width: 375px) {
   #qrcontainer {
